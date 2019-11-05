@@ -3,6 +3,8 @@
 2. Binary Search
 3. Fibonacci Search
 
+## Searching: 
+`Search algorithm` is the step-by-step procedure used to locate specific data among a collection of data. It is considered a fundamental procedure in computing. In computer science, when searching for data, the difference between a fast application and a slower one often lies in the use of the proper search algorithm.
 
 ## Linear Search:
  `Linear search` is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
