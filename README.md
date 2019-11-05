@@ -1,12 +1,12 @@
-# Search algorithms:
+# Searching: 
+`Search algorithm` is the step-by-step procedure used to locate specific data among a collection of data. It is considered a fundamental procedure in computing. In computer science, when searching for data, the difference between a fast application and a slower one often lies in the use of the proper search algorithm.
+
+## Search algorithms:
 1. Linear Search
 2. Binary Search
 3. Fibonacci Search
 
-## Searching: 
-`Search algorithm` is the step-by-step procedure used to locate specific data among a collection of data. It is considered a fundamental procedure in computing. In computer science, when searching for data, the difference between a fast application and a slower one often lies in the use of the proper search algorithm.
-
-## Linear Search:
+### Linear Search:
  `Linear search` is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
  #### Pseudocode:
  ````
@@ -21,7 +21,7 @@
 end procedure
  ````
  
- ## Binary Search:
+ ### Binary Search:
  `Binary search` is a fast search algorithm with run-time complexity of Ο(log n). This search algorithm works on the principle of divide and conquer. For this algorithm to work properly, the data collection should be in the sorted form.
 
 Binary search looks for a particular item by comparing the middle most item of the collection. If a match occurs, then the index of item is returned. If the middle item is greater than the item, then the item is searched in the sub-array to the left of the middle item. Otherwise, the item is searched for in the sub-array to the right of the middle item. This process continues on the sub-array as well until the size of the subarray reduces to zero.
@@ -54,7 +54,7 @@ Procedure binary_search
 end procedure
 ````
 
-## Fibonacci Search:
+### Fibonacci Search:
 `Fibonacci search` is an efficient search algorithm based on divide and conquer principle that can find an element in the given sorted array with the help of Fibonacci series in O(log N) time complexity. This is based on Fibonacci series which is an infinite sequence of numbers denoting a pattern which is captured by the following equation:
 
 F(n+1)=F(n)+F(n-1)
